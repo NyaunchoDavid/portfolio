@@ -1,8 +1,14 @@
 body{
-  background-color:#576936;
+  background-color:#ea384d;
 }
 .intro{
   height:260px;
   background-color:#00043d;
   border:1px solid #000000;
+}
+.pic{
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  background-color:#ea4238;
 }
