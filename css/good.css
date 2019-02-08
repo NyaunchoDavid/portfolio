@@ -29,10 +29,27 @@ h5{
   font-size:45px;
   text-align:center;
 }
+h6{
+  font-size:6px;
+  text-align:center;
+  color:#54daec;
+}
 .about{
   height:400px;
   background-color:#00043d;
   border-radius:4px;
   opacity:0.7;
   margin-top:-43px;
+}
+.edu{
+  width:300px;
+  height:200px;
+  background-color:#666ca5;
+  margin-left:2px;
+  float:left;
+}
+.int{
+  width:300px;
+  height:200px;
+  background-color:#666ca5;
 }
