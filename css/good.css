@@ -24,3 +24,15 @@ h3{
   font-size:26px;
   color:#0072ff;
 }
+h5{
+  color:#26a0da;
+  font-size:45px;
+  text-align:center;
+}
+.about{
+  height:400px;
+  background-color:#00043d;
+  border-radius:4px;
+  opacity:0.7;
+  margin-top:-43px;
+}
