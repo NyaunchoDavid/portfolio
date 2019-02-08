@@ -29,13 +29,18 @@ h5{
   font-size:45px;
   text-align:center;
 }
-h6{
-  font-size:6px;
+h2{
   text-align:center;
-  color:#54daec;
+}
+.exp{
+  background-color:#666ca5;
+  height:300px;
+  width:300px;
+  float:right;
+  margin-right:90px;
 }
 .about{
-  height:400px;
+  height:500px;
   background-color:#00043d;
   border-radius:4px;
   opacity:0.7;
@@ -43,13 +48,21 @@ h6{
 }
 .edu{
   width:300px;
-  height:200px;
+  height:300px;
   background-color:#666ca5;
-  margin-left:2px;
-  float:left;
+  float:right;
+  margin-right:90px;
+}
+.edu ul{
+  list-style-type:disc;
+}
+.edu ul li{
+  font-size:18px;
 }
 .int{
   width:300px;
-  height:200px;
+  height:300px;
   background-color:#666ca5;
+  float:right;
+  margin-right:90px;
 }
