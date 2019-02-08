@@ -38,6 +38,8 @@ h2{
   width:300px;
   float:right;
   margin-right:90px;
+  box-shadow:6px 6px 16px #000000;
+  opacity:0.7;
 }
 .about{
   height:500px;
@@ -52,11 +54,20 @@ h2{
   background-color:#666ca5;
   float:right;
   margin-right:90px;
+  box-shadow:6px 6px 16px;
+  opacity:0.7;
 }
 .edu ul{
   list-style-type:disc;
 }
 .edu ul li{
+  font-size:18px;
+}
+.int ul li{
+  font-size:18px;
+}
+#las{
+  text-align:center;
   font-size:18px;
 }
 .int{
@@ -65,4 +76,5 @@ h2{
   background-color:#666ca5;
   float:right;
   margin-right:90px;
+  box-shadow:6px 6px 16px #000000;
 }
