@@ -1,19 +1,27 @@
 body{
-  background-color:#ea384d;
+  background-image:url("../images/lap.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 .intro{
-  height:300px;
+  height:100% auto;
   background-color:#00043d;
-  border:1px solid #000000;
   padding:22px;
   opacity:0.7;
+}
+.sleep{
+    height:300px;
+    background-color:#00043d;
+    box-shadow:19px 19px 19px 19px #000000;
+    padding:22px;
+    opacity:0.7;
 }
 .pic{
   width:300px;
   height:300px;
   border-radius:150px;
   background-color:none;
-  background-image:url("/home/david/Documents/Portfolio/images/dave.jpg");
+  background-image:url("../images/dave.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
@@ -39,14 +47,18 @@ h2{
   float:right;
   margin-right:90px;
   box-shadow:6px 6px 16px #000000;
-  opacity:0.7;
+  border-radius:3px;
+}
+.exp:hover{
+  color:#666ca5;
+  background-color:#00043d;
 }
 .about{
   height:500px;
   background-color:#00043d;
   border-radius:4px;
   opacity:0.7;
-  margin-top:-43px;
+  padding-top:12px;
 }
 .edu{
   width:300px;
@@ -54,8 +66,12 @@ h2{
   background-color:#666ca5;
   float:right;
   margin-right:90px;
-  box-shadow:6px 6px 16px;
-  opacity:0.7;
+  box-shadow:6px 6px 16px #000000;
+  border-radius:3px;
+}
+.edu:hover{
+  color:#666ca5;
+  background-color:#00043d;
 }
 .edu ul{
   list-style-type:disc;
@@ -77,4 +93,29 @@ h2{
   float:right;
   margin-right:90px;
   box-shadow:6px 6px 16px #000000;
+  border-radius:3px;
+}
+.int:hover{
+  color:#666ca5;
+  background-color:#00043d;
+}
+span{
+  background-color:#0072ff;
+  float:right;
+  padding:21px;
+  border-radius:3px;
+
+}
+span a{
+  color:#ffffff;
+  text-decoration:none;
+  outline:none;
+  font-size:19px;
+}
+span a:hover{
+  color:#66ca56;
+}
+#foo{
+  color:#26a0da;
+  text-align:center;
 }
